@@ -27,7 +27,7 @@ class _AuthScreenState extends State<AuthScreen> {
     super.dispose();
   }
 
-  // Sends credentials to Node.js backend
+  // Sends credentials to PHP backend
   Future<void> _submit() async {
     if (!_formKey.currentState!.validate()) return;
 
